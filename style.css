@@ -1,0 +1,45 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    height: 100%;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card {
+    background-color: white;
+    text-align: center;
+    width: 350px;
+    border-radius: 25px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+img {
+    padding: 15px;
+    border-radius: 25px;
+}
+
+h3 {
+    font-family: 'Outfit', 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding: 15px;
+    font-size: 22px;
+    color: hsl(218, 44%, 22%);
+}
+
+p {
+    font-family: 'Outfit', 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding: 0 15px 20px 15px;
+    color: hsl(220, 15%, 55%);
+    font-size: 15px;
+}
+
+.attribution {
+    padding: 20px 0;
+}
